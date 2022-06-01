@@ -9,3 +9,6 @@ Working through the full catalogue of spaCy basics to start with and then workin
   - Cleaning up line breaks to allow _sm model to work as efficiently as possible
   - named entity recognition (NER)
   - Finding parts of speech
+  - Extracting nouns and noun chunks
+  - Extracting verbs and verb phrases
+  - 

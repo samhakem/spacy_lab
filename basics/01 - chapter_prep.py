@@ -24,8 +24,8 @@ sentences = list(doc.sents)
 sentence = (sentences[2])
 # print(sentences[1])
 
-ents = list(sentence.ents)  # Breaks down sentence object and turns it into a spaCy and will look for all named
-# ents = list(doc.ents)  # Test and deal with false positives across whole doc
+# ents = list(sentence.ents)  # Breaks down sentence object and turns it into a spaCy and will look for all named
+ents = list(doc.ents)  # Test and deal with false positives across whole doc
 # entities in text
 
 people = []

@@ -1,4 +1,4 @@
-with open('/home/samhakem/PycharmProjects/spacy_lab/data/alice.txt', 'r') as f:
+with open('/basics/data/alice.txt', 'r') as f:
     text = f.read()
     #print(text)
     chapters = text.split('CHAPTER ')[1:]  # Start from second index

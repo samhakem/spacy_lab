@@ -7,4 +7,5 @@ Working through the full catalogue of spaCy bascis to start with and then workin
   - Import
   - Separating document into sentences
   - Cleaning up line breaks to allow _sm model to work as efficiently as possible
+  - named entity recognition
   - 

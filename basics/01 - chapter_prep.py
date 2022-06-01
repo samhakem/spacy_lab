@@ -20,5 +20,5 @@ nlp = spacy.load('en_core_web_sm')
 doc = nlp(chapter1)
 
 # Separate out doc out by sents
-sentences = list(doc.sents)
-print(sentences[1])
+# sentences = list(doc.sents)
+# print(sentences[1])

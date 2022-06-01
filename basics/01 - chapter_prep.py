@@ -31,7 +31,7 @@ ents = list(sentence.ents)  # Breaks down sentence object and turns it into a sp
 people = []
 
 for ent in ents:
-    if ent.text.label_ == 'PERSON':
+    if ent.label_ == 'PERSON':
         people.append(ent)
 
 print(people)

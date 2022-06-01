@@ -1,4 +1,5 @@
 import spacy
+
 # import os
 
 with open('/home/samhakem/PycharmProjects/spacy_lab/basics/data/alice.txt', 'r') as f:
@@ -24,7 +25,10 @@ sentence = (sentences[2])
 nouns = []
 
 for token in sentence:
-    if token.pos_ == 'NOUN':
+    if token.pos_ == 'NOUN':  # Run with nouns or
+    # if token.pos_ == 'ADV':  # run with adverbs etc, you can run with any pos_
         nouns.append(token)
 
-print(nouns)
+# print(nouns)
+
+print(list(doc.noun_chunks))

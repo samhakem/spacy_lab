@@ -31,4 +31,10 @@ for token in sentence:
 
 # print(nouns)
 
-print(list(doc.noun_chunks))
+# print(list(doc.noun_chunks))
+
+# Extract specific string/noun in text
+chunks = (list(doc.noun_chunks))
+for chunk in chunks:
+    if 'watch' in str(chunk):
+        print(chunk)

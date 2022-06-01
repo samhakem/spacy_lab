@@ -1,6 +1,6 @@
 # Spacy projects
 
-Working through the full catalogue of spaCy bascis to start with and then working up to more complex imlementations.
+Working through the full catalogue of spaCy basics to start with and then working up to more complex implementations.
 
 - Starting topics to implement
   - Installation

@@ -23,8 +23,8 @@ doc = nlp(chapter1)
 sentences = list(doc.sents)
 sentence = (sentences[6])
 
-html = displacy.render(sentence, style='dep')  # Render saves the visualisation
-# html = displacy.render(sentence, style='ent')
+# html = displacy.render(sentence, style='dep')  # Render saves the visualisation, dep displays dependancy parse
+html = displacy.render(sentence, style='ent')  # Entity recognition
 
 # html = displacy.serve(sentence, style='dep')  # Serve only displays it
 

@@ -27,3 +27,6 @@ html = displacy.render(sentence, style='dep')  # Render saves the visualisation
 html = displacy.render(sentence, style='ent')
 
 html = displacy.serve(sentence, style='dep')  # Serve only displays it
+
+with open('data_vis.html', 'w') as f:  # Saves the visualization to an HTML file locally
+    f.write(html)

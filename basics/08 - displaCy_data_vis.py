@@ -19,7 +19,8 @@ chapter1 = chapters[0]
 nlp = spacy.load('en_core_web_sm')
 
 # Calling doc object and assigning nlp object to chapter1
-doc = nlp(chapter1)
+# doc = nlp(chapter1)  # Individual chapters
+doc = nlp(text)  # Entire text
 sentences = list(doc.sents)
 sentence = (sentences[6])
 

@@ -23,7 +23,7 @@ doc = nlp(chapter1)
 sentences = list(doc.sents)
 sentence = (sentences[1])
 
-# Lemma - root of a word ie Boys - Lemma = Boy (infinitiv)
+# Lemma - root of a word ie Boys - Lemma = Boy (ie infinitiv)
 for word in sentence:
     if word.pos_ == 'NOUN':
         print(word, word.lemma_)

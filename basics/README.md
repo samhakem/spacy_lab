@@ -11,4 +11,4 @@ Working through the full catalogue of spaCy basics to start with and then workin
   - Finding parts of speech
   - Extracting nouns and noun chunks
   - Extracting verbs and verb phrases
-  - 
+  - Lemmatization

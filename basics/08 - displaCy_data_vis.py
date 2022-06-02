@@ -28,8 +28,8 @@ sentence = (sentences[6])
 # html = displacy.render(sentence, style='ent')  # Entity recognition
 
 # Entire document
-html = displacy.render(doc, style='dep')  # Render saves the visualisation, dep displays dependency parse
-# html = displacy.render(sentence, style='ent')  # Entity recognition
+# html = displacy.render(doc, style='dep')  # Render saves the visualisation, dep displays dependency parse
+html = displacy.render(doc, style='ent')  # Entity recognition
 
 # html = displacy.serve(sentence, style='dep')  # Serve only displays it
 
